@@ -3,10 +3,8 @@ def reverse_each_word(string)
   newArr = string.split(" ")
  newArr.each do |thing|
    newNewArr.push(thing.reverse)
+   return newNewArr.join(" ")
 end
-final = ""
-final =+ newNewArr.join(" ")
-return final
 end
 
 reverse_each_word(string)
