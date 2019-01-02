@@ -9,3 +9,5 @@ final =+ newNewArr.join(" ")
 return final
 end
 
+reverse_each_word(string)
+string
