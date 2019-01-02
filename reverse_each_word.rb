@@ -7,7 +7,7 @@ end
 return newNewArr.join(" ")
 end
 
-def reverse_each_word
+def reverse_each_word(string)
   string.collect do |thing|
     thing.reverse
   end
