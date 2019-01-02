@@ -10,4 +10,4 @@ return final
 end
 
 reverse_each_word(string)
-string
+string.
