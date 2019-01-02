@@ -6,4 +6,5 @@ def reverse_each_word(string)
 end
 final = ""
 final =+ newNewArr.join
+return final
 end
