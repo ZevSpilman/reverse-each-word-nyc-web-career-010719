@@ -12,5 +12,4 @@ def reverse_each_word(string)
    newArr.collect do |thing|
     thing.reverse
   end.join(" ")
-  return 
 end
